@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/taskManager/com.ibm.ws.prereq.commonj-twm.jar"/>
+	<classpathentry kind="lib" path="lib/p8/Jace.jar"/>
+	<classpathentry kind="lib" path="lib/j2ee/j2ee.jar"/>
+	<classpathentry kind="lib" path="lib/navigatorAPI.jar"/>
+	<classpathentry kind="lib" path="lib/cm/cmbicmsdk81.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://publib.boulder.ibm.com/infocenter/cmgmt/v8r4m0/topic/com.ibm.java.doc"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/od/ODApi.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container/icnweb"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/icncore"/>
+	<classpathentry kind="lib" path="lib/taskManager/taskManagerAPI.jar" sourcepath="/taskManagerAPI"/>
+	<classpathentry kind="lib" path="lib/taskManager/taskServiceClient.jar" sourcepath="/taskServiceClient"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
